@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/tads2022/static/css/main.073c9b0a.css",
-    "main.js": "/tads2022/static/js/main.cad4205d.js",
+    "main.js": "/tads2022/static/js/main.264bd58d.js",
     "static/js/787.6123438c.chunk.js": "/tads2022/static/js/787.6123438c.chunk.js",
     "static/media/logo.svg": "/tads2022/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/tads2022/index.html",
     "main.073c9b0a.css.map": "/tads2022/static/css/main.073c9b0a.css.map",
-    "main.cad4205d.js.map": "/tads2022/static/js/main.cad4205d.js.map",
+    "main.264bd58d.js.map": "/tads2022/static/js/main.264bd58d.js.map",
     "787.6123438c.chunk.js.map": "/tads2022/static/js/787.6123438c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.cad4205d.js"
+    "static/js/main.264bd58d.js"
   ]
 }
