@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import RouterApp from './Routes';
+import Imagem from './Imagens/background.png'
 
 
 
@@ -23,6 +24,7 @@ function App() {
           </ul>
         </nav>
       </div>
+      <img src={Imagem} alt='Imagem'></img>
       <RouterApp />
     </div>
   );
