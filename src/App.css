@@ -1,7 +1,50 @@
-.App {
-  text-align: center;
+.container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
 }
 
-img{
-  width: 90%;
+header{
+  padding: 50px 180px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
+  height: fit-content;
+  margin-right: 30px;
+}
+
+.logo h2 {
+  text-align: right;
+  font-size: min(4.5vw, 40px);
+  line-height: 1;
+  color: white;
+  margin-bottom: 0;
+}
+
+.logo img {
+  width: min(15vw, 90px);
+  height: min(15vw, 90px);
+}
+
+@media screen and (max-width: 768px) {
+  header {
+      padding: 10px;
+  }
+
+  .container{
+      height: 90%;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  .logo {
+      justify-content: center;
+  }
+
 }
