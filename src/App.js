@@ -24,7 +24,6 @@ function App() {
           </ul>
         </nav>
       </div>
-      <img src={Imagem} alt='Imagem'></img>
       <RouterApp />
     </div>
   );
