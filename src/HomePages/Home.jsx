@@ -1,7 +1,7 @@
 import '../App.css';
 import './homeStyle.css';
 import React from 'react';
-import Imagem from '../Imagens/background.png';
+import Imagem from '../Imagens/Imagem1.png';
 
 class Home extends React.Component {
     render() {
@@ -12,7 +12,7 @@ class Home extends React.Component {
                     <div className="container">
                         <div className="logo">
                             <div><h2>TADS 2022<br />Senac</h2></div>
-                            <img src={Imagem} ></img>
+                            <img src={Imagem} alt='quebra-cabeça'></img>
                         </div>
                         <div className="Texto">
                             ESTE É O LUGAR ONDE A CRIATIVIDADE E A INDIVIDUALIDADE
