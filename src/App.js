@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
-import About from './Sobre';
-import Home from './Home';
+import { Link } from 'react-router-dom';
+import RouterApp from './Routes';
+
+
 
 function App() {
   return (
@@ -22,10 +23,7 @@ function App() {
           </ul>
         </nav>
       </div>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+      <RouterApp />
     </div>
   );
 }
