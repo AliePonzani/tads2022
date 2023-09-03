@@ -17,15 +17,15 @@ html{
 
 .logo h2 {
   text-align: right;
-  font-size: min(4.5vw, 40px);
+  font-size: min(4vw, 33px);
   line-height: 1;
   color: white;
   margin-bottom: 0;
 }
 
 .logo img {
-  width: min(15vw, 90px);
-  height: min(15vw, 90px);
+  width: min(10vw, 80px);
+  height: min(10vw, 80px);
 }
 
 @media screen and (max-width: 768px) {
