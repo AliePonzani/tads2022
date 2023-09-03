@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# TADS 2022 - Senac
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Descrição do Projeto
+O projeto "TADS 2022 - Senac" é um site desenvolvido em React que oferece a oportunidade para alunos das turmas de Analise e Desenvolvimento de Sistemas construírem suas próprias páginas sobre os temas de sua escolha. A ideia principal é criar um ambiente colaborativo onde os alunos possam trabalhar em um único repositório, simulando um ambiente de produção semelhante ao de uma empresa real. Isso visa preparar os alunos para o mercado de trabalho, proporcionando experiência prática em desenvolvimento web e colaboração em equipe.
 
-## Available Scripts
+## Funcionalidades Principais
+- **Criação de Páginas:** Cada aluno pode criar sua própria página com conteúdo relacionado ao assunto de sua escolha.
+- **Edição Colaborativa:** Os alunos podem convidar outros para editar suas páginas, permitindo colaboração em equipe.
+- **Controle de Versões:** O sistema utiliza um sistema de controle de versões para rastrear todas as alterações feitas nas páginas.
 
-In the project directory, you can run:
+## Tecnologias Utilizadas
+- **Front-end:** React
+- **Controle de Versão:** Git e GitHub
 
-### `npm start`
+## Instruções de Uso
+1. Faça um fork deste repositório. 
+   1. Faça o Fork: No canto superior direito da página do repositório, você verá o botão "Fork". Clique nele.
+   2. Escolha a Conta para o Fork: Uma janela pop-up será exibida, pedindo que você escolha onde deseja fazer o fork. Escolha sua própria conta do GitHub (ou a organização, se aplicável).
+   3. Aguarde o Fork: O GitHub agora criará uma cópia do repositório na sua conta. Isso pode levar alguns segundos.
+   4. Você Fez o Fork!: Após a conclusão, você será redirecionado para a página do repositório forkado em sua conta.
+      
+3. Criar e Trabalhar em uma Branch: Cada aluno clona seu próprio fork para suas máquinas locais e cria uma nova branch para trabalhar em suas alterações:
+   1. Faça o clone deste repositório para sua máquina local usando o comando:
+      ```bash
+      git clone https://github.com/AliePonzani/tads2022.git
+      ```
+   3. Navegue até o diretório do projeto:
+      ```bash
+      cd tads2022
+      ```
+   5. Crie uma nova branch com seu nome, assim fica fácil de lembra, para subir suas alterações:
+      ```bash
+      git checkout -b SEU_NOME
+      ```
+   7. Instale as dependências do projeto:
+      ```bash
+      npm install
+      ```
+   8. Inicie o servidor de desenvolvimento:
+      ```bash
+      npm start
+      ```
+   9. Abra seu navegador e acesse o site em `http://localhost:3000`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+3. Faça suas alterações:
+   
+   1. Dentro de src/Paginas crie um New File do tipo .jsx com o nome da sua pagina, dentro deste arquivo você irá montar toda a estrutura de sua página, use a PaginaExemplo.jsx como exemplo para iniciar.
+   2. Depois de criar sua página vá em src/Paginas/pagesDatas.jsx e crie uma nova rota para sua página seguindo o exemplo que consta lá.
+      
+4. Faça um commit adicione mensagens de commit significativas:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+git commit -m "SUA MENSSAGEM"
+```
 
-### `npm test`
+5. Envie suas alterações de volta para o repositório forkado:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+git push origin SEU_NOME
+```
 
-### `npm run build`
+6. Abra o Pull Request:
+   1. Vá para a página do seu fork no GitHub e clique na guia "Pull requests".
+   2. Clique no botão verde "New pull request".
+   3. Selecione a branch que você acabou de criar no repositório original como destino (geralmente a branch "main" ou "master").
+   4. Revise as alterações que você está propondo. Se estiver tudo certo, clique em "Create pull request".
+  
+7. Descreva o Pull Request:
+   1. Dê um título e uma descrição informativa para o seu pull request. Explique o que você fez e por que.
+  
+8. Envie o Pull Request:
+   1. Finalmente, clique em "Create pull request" para enviar o pull request ao repositório original.
+  
+9. A partir desse ponto, os colaboradores do repositório original terão a oportunidade de analisar suas alterações, oferecer comentários e, se estiverem em conformidade, integrá-las ao repositório principal. Lembre-se de monitorar o pull request para prontamente responder a qualquer feedback que possa ser fornecido.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Equipe
+Este projeto é mantido por uma equipe de alunos dedicados. Sinta-se à vontade para entrar em contato conosco se tiver alguma dúvida ou sugestão.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Aline Fernanda Ponzani](https://github.com/AliePonzani) - Desenvolvedor Front-end - Idealizadora deste repositório
 
-### `npm run eject`
+## Licença
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para obter detalhes.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
