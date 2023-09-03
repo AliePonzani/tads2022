@@ -7,7 +7,7 @@ import pages from './Paginas/pagesDatas';
 function RouterApp() {
     return (
         <Routes>
-            <Route path="/tads2022" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/Colaboradores" element={<PaginaColaboradores />} />
             {pages.map((page, index) => (
                 <Route key={index} path={page.path} element={<page.component />} />

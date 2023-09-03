@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 class Home extends React.Component {
     render() {
         return (
-            <div>
+            <div >
                 <div className="home-backgroung"></div>
-                <header>
+                <div className='Home'>
                     <div className="container">
                         <div className="logo">
                             <div><h2>TADS 2022<br />Senac</h2></div>
@@ -27,7 +27,7 @@ class Home extends React.Component {
                             <span>UM LUGAR PARA COLOCAR SUAS IDEIAS E HABILIDADES EM PRATICA</span>
                         </div>
                     </div>
-                </header>
+                </div>
             </div>
         );
     }

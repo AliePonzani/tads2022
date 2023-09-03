@@ -10,7 +10,7 @@ class PaginaColaboradores extends React.Component {
         return (
             <div>
                 <div className="header-colaboradores">
-                    <div className="container">
+                    <div className="containerColaboradores">
                         <div className="logo" style={{ justifyContent: 'flex-start' }}>
                             <div><h2>TADS 2022<br />Senac</h2></div>
                             <img src={Imagem} alt='quebra-cabeça'></img>

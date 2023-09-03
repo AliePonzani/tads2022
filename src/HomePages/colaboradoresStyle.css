@@ -1,13 +1,22 @@
+.containerColaboradores{
+    width: 100%;
+    height: 90%;
+
+    align-items: flex-start;
+    justify-content: none;
+}
+
 .header-colaboradores {
     background-color: black;
     height: 100vh;
     padding: 50px 180px;
+    display: flex;
 }
 
 .grupo_colaboradores {
     width: 90%;
     max-width: 1200px;
-    height: 80px;
+    /* height:max-content; */
     margin: 0 auto;
     padding: 5%;
     display: grid;
@@ -25,7 +34,7 @@
 }
 
 .Colaborador {
-    padding: 5px;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;

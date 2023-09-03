@@ -1,9 +1,10 @@
-import Nome_da_Pagina from "./PaginaExemplo";
+// Siga os exemplos abaixo comentados para criar o Link de acesso para sua página 
+
+import CaminhoDaPagina from "./PaginaExemplo";
 
 const pagesData = [
-    { name: 'Aline F. Ponzani', path: '/Aline', component: Nome_da_Pagina},
-    //{ name: 'Aline F. Ponzani', path: '/Aline', component: Aline},    
-    // Insira aqui sua página usando as que estão acima como exemplo
+    // { name: 'Nome da Página', path: '/RotaDaPagina', component: CaminhoDaPagina},
+    // Insira aqui sua página usando a que esta acima como exemplo
 ];
 
 export default pagesData;
