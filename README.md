@@ -50,7 +50,7 @@ O projeto "TADS 2022 - Senac" é um site(disponível em: https://alieponzani.git
 4. Faça um commit adicione mensagens de commit significativas:
 
 ```bash
-git .add
+git add .
 git commit -m "SUA MENSSAGEM"
 ```
 
