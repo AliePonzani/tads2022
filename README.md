@@ -1,7 +1,7 @@
 # TADS 2022 - Senac
 
 ## Descrição do Projeto
-O projeto "TADS 2022 - Senac" é um site desenvolvido em React que oferece a oportunidade para alunos das turmas de Analise e Desenvolvimento de Sistemas construírem suas próprias páginas sobre os temas de sua escolha. A ideia principal é criar um ambiente colaborativo onde os alunos possam trabalhar em um único repositório, simulando um ambiente de produção semelhante ao de uma empresa real. Isso visa preparar os alunos para o mercado de trabalho, proporcionando experiência prática em desenvolvimento web e colaboração em equipe.
+O projeto "TADS 2022 - Senac" é um site(disponível em: https://alieponzani.github.io/tads2022/) desenvolvido em React que oferece a oportunidade para alunos das turmas de Análise e Desenvolvimento de Sistemas construírem suas próprias páginas sobre os temas de sua escolha. A ideia principal é criar um ambiente colaborativo onde os alunos possam trabalhar em um único repositório, simulando um ambiente de produção semelhante ao de uma empresa real. Isso visa preparar os alunos para o mercado de trabalho, proporcionando experiência prática em desenvolvimento web e colaboração em equipe.
 
 ## Funcionalidades Principais
 - **Criação de Páginas:** Cada aluno pode criar sua própria página com conteúdo relacionado ao assunto de sua escolha.
@@ -13,7 +13,7 @@ O projeto "TADS 2022 - Senac" é um site desenvolvido em React que oferece a opo
 - **Controle de Versão:** Git e GitHub
 
 ## Instruções de Uso
-1. Faça um fork deste repositório. 
+1. Faça um fork deste repositório.
    1. Faça o Fork: No canto superior direito da página do repositório, você verá o botão "Fork". Clique nele.
    2. Escolha a Conta para o Fork: Uma janela pop-up será exibida, pedindo que você escolha onde deseja fazer o fork. Escolha sua própria conta do GitHub (ou a organização, se aplicável).
    3. Aguarde o Fork: O GitHub agora criará uma cópia do repositório na sua conta. Isso pode levar alguns segundos.
@@ -50,6 +50,7 @@ O projeto "TADS 2022 - Senac" é um site desenvolvido em React que oferece a opo
 4. Faça um commit adicione mensagens de commit significativas:
 
 ```bash
+git .add
 git commit -m "SUA MENSSAGEM"
 ```
 
@@ -73,11 +74,24 @@ git push origin SEU_NOME
   
 9. A partir desse ponto, os colaboradores do repositório original terão a oportunidade de analisar suas alterações, oferecer comentários e, se estiverem em conformidade, integrá-las ao repositório principal. Lembre-se de monitorar o pull request para prontamente responder a qualquer feedback que possa ser fornecido.
 
+**CASO VOCÊ JÁ TENHA ESTE REPOSITÓRIO LEMBRE-SE QUE ANTES DE INICIAR CADA TRABALHO FAÇA UM *git pull origin nome_da_sua_branch* PARA OBTER AS ATUALIZAÇÕES QUE OUTROS COLABORADORES POSSAM TER REALIZADO.**
+
+## Regras importantes
+Para este projeto se manter limpo e sem confusão é importante que você:
+   1. Não altere nada dentro da página do coleguinha.
+   2. Não crie pastas dentro das pastas já existentes.
+   3. Todos os arquivos .css devem ficar dentro da pasta src/css
+   4. Dê um nome único para seu arquivo, não use index, App, home e nem nada do tipo, o ideal é que seus arquivos .jsx e .css tenham seu nome, ex: Aline.jsx ou Aline.css e se houver já um arquivo coloque seu sobrenome para diferencia-lo.
+   5. Não realize alterações dentro da branch main, utilize a branch que você criou para isso.
+   5. Por último e não menos importante não se esqueça de colocar seu nome ai em baixo em **Equipe**.
+
+É isso, bem vindo ao time!!!
+
 
 ## Equipe
 Este projeto é mantido por uma equipe de alunos dedicados. Sinta-se à vontade para entrar em contato conosco se tiver alguma dúvida ou sugestão.
 
-- [Aline Fernanda Ponzani](https://github.com/AliePonzani) - Desenvolvedor Front-end - Idealizadora deste repositório
+- [Aline Fernanda Ponzani](https://github.com/AliePonzani) - Desenvolvedor Back-end - Idealizadora deste projeto.
 
 ## Licença
 Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para obter detalhes.
