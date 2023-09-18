@@ -50,14 +50,14 @@ O projeto "TADS 2022 - Senac" é um site(disponível em: https://alieponzani.git
 4. Faça um commit adicione mensagens de commit significativas:
 
 ```bash
-git .add
+git add .
 git commit -m "SUA MENSSAGEM"
 ```
 
 5. Envie suas alterações de volta para o repositório forkado:
 
 ```bash
-git push origin SEU_NOME
+git push origin nome_da_sua_branch
 ```
 
 6. Abra o Pull Request:
