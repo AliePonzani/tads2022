@@ -20,10 +20,12 @@ O projeto "TADS 2022 - Senac" é um site(disponível em: https://alieponzani.git
    4. Você Fez o Fork!: Após a conclusão, você será redirecionado para a página do repositório forkado em sua conta.
       
 3. Criar e Trabalhar em uma Branch: Cada aluno clona seu próprio fork para suas máquinas locais e cria uma nova branch para trabalhar em suas alterações:
-   1. Faça o clone deste repositório para sua máquina local usando o comando:
-      ```bash
-      git clone https://github.com/AliePonzani/tads2022.git
-      ```
+   1. Faça o clone DO SEU REPOSITÓRIO para sua máquina local usando o comando:
+      1. Vá em seus repositórios e selecione o repositório tads2022.
+      2. Clique em CODE e copie o link do repositório, vai parecer este link abaixo porém com seu nome ao invés de AliePonzani.
+         ```bash
+         git clone https://github.com/AliePonzani/tads2022.git
+         ```
    3. Navegue até o diretório do projeto:
       ```bash
       cd tads2022
