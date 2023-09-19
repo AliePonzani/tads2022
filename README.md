@@ -14,27 +14,33 @@ O projeto "TADS 2022 - Senac" é um site(disponível em: https://alieponzani.git
 
 ## Instruções de Uso
 1. Faça um fork deste repositório.
-   1. Faça o Fork: No canto superior direito da página do repositório, você verá o botão "Fork". Clique nele.
-   2. Escolha a Conta para o Fork: Uma janela pop-up será exibida, pedindo que você escolha onde deseja fazer o fork. Escolha sua própria conta do GitHub (ou a organização, se aplicável).
+   1. No canto superior direito desta página , você verá o botão "Fork". Clique nele e depois em +Create New Fork.
+   2. Role a página até o botão Create fork e clique nele.
    3. Aguarde o Fork: O GitHub agora criará uma cópia do repositório na sua conta. Isso pode levar alguns segundos.
-   4. Você Fez o Fork!: Após a conclusão, você será redirecionado para a página do repositório forkado em sua conta.
+   4. Após a conclusão, você será redirecionado para a página do repositório forkado em sua conta.
       
-3. Criar e Trabalhar em uma Branch: Cada aluno clona seu próprio fork para suas máquinas locais e cria uma nova branch para trabalhar em suas alterações:
+3. Cada colaborador deverá clonar seu próprio repositório para suas máquinas locais e trabalhar em suas alterações:
+   *** 
+   Caso não tenha o GIT instalado em sua máquina, pesquise sobre o assunto e faça a instalação e configurações necessárias antes de seguir.
+   ***
    1. Faça o clone DO SEU REPOSITÓRIO para sua máquina local usando o comando:
       1. Entre nos seus repositórios e abra o repositório tads2022(caso ainda não esteja com ele aberto).
-      2. Clique em CODE e copie o link que parece com este abaixo, porém com seu nome ao invés de AliePonzani.
+      2. Clique em CODE e copie o link que parece como este abaixo, porém com seu nome ao invés de AliePonzani. E dentro do seu cmd digite git clone e cole o link copiado, ficará assim:
          ```bash
-         git clone https://github.com/ AliePonzani/tads2022.git
+         git clone https://github.com/AliePonzani/tads2022.git
          ```
-   3. Navegue até o diretório do projeto:
-      ```bash
-      cd tads2022
-      ```
-   5. Crie uma nova branch com seu nome, assim fica fácil de lembra, para subir suas alterações:
-      ```bash
-      git checkout -b SEU_NOME
-      ```
+      3. Navegue até o diretório do projeto:
+         ```bash
+         cd tads2022
+         ```
+      4. Ainda dentro do terminal, abra o projeto na IDE que deseja trabalhar, neste exemplo usarei o VsCode.
+         ```bash
+         code .
+         ```
    7. Instale as dependências do projeto:
+      ***
+      Para esta etapa você precisa ter o Node instalado na sua máquina, caso ainda não tenha entre em https://nodejs.org/pt-br e faça a instalação da versão mais recente.
+      ***
       ```bash
       npm install
       ```
@@ -56,16 +62,17 @@ git add .
 git commit -m "SUA MENSSAGEM"
 ```
 
-5. Envie suas alterações de volta para o repositório forkado:
+5. Envie suas alterações para seu repositório:
 
 ```bash
-git push origin nome_da_sua_branch
+git push
 ```
 
 6. Abra o Pull Request:
-   1. Vá para a página do seu fork no GitHub e clique na guia "Pull requests".
+   1. Vá para a página do seu repositório no GitHub e clique na guia "Pull requests".
    2. Clique no botão verde "New pull request".
-   3. Selecione a branch que você acabou de criar no repositório original como destino (geralmente a branch "main" ou "master").
+   3. Selecione a branch *"atualizacoes"* no repositório original como destino. E selecione a branch no seu repositório (normalmente é a "main" ou "master") como no exemplo abaixo qua a conta AlineTestes esta enviando para a conta original do repositório AliePonzani:
+   <img src="src\Imagens\Captura de tela 2023-09-19 185403.png">
    4. Revise as alterações que você está propondo. Se estiver tudo certo, clique em "Create pull request".
   
 7. Descreva o Pull Request:
